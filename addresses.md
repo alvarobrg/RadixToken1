@@ -1,0 +1,19 @@
+Account component address: account_sim1qnqc55aqvaxff4hysssvyl7ufcmxqeq0h5wahvy2ueasedla43
+Success! New Package: package_sim1qratrcy4ns4jevhsg34dglagkn4n03ne6s6gnywkzllqhs4wfr
+
+Component: component_sim1qwc0zvuw2ymkvu37rdu4359h79r7knmvrt2tu8pszwyq8w72u9
+Resource: resource_sim1qxc0zvuw2ymkvu37rdu4359h79r7knmvrt2tu8pszwyqzsx3rd
+
+
+scrypto new-package RadixToken1
+
+cd RadixToken1
+resim publish .
+
+resim call-function [package_address] [blueprint_name] [function]]
+resim call-function package_sim1qratrcy4ns4jevhsg34dglagkn4n03ne6s6gnywkzllqhs4wfr Hello instantiate_hello
+
+resim call-method [component_address] [method]
+resim call-method component_sim1qwc0zvuw2ymkvu37rdu4359h79r7knmvrt2tu8pszwyq8w72u9 free_token
+
+resim show account_sim1qnqc55aqvaxff4hysssvyl7ufcmxqeq0h5wahvy2ueasedla43
